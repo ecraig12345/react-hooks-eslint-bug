@@ -1,4 +1,4 @@
-Demonstrating a bug with `eslint-plugin-react-hooks`: with `@typescript-eslint/parser` >= 5, the `rules-of-hooks` rule misses hook usage in class properties.
+Demonstrating an [issue](https://github.com/facebook/react/issues/27431) with `eslint-plugin-react-hooks`: with `@typescript-eslint/parser` >= 5, the `rules-of-hooks` rule misses hook usage in class properties.
 
 ```ts
 class Test {
