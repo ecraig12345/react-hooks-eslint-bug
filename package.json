@@ -1,0 +1,19 @@
+{
+  "name": "react-hooks-eslint-bug",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint index.ts; echo \"EXPECTED: 10 errors\" && echo",
+    "lint-v4": "eslint --parser typescript-eslint-parser-v4 index.ts; echo \"CORRECT: 10 errors\" && echo"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "typescript-eslint-parser-v4": "npm:@typescript-eslint/parser@^4.0.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks-next": "npm:eslint-plugin-react-hooks@next",
+    "typescript": "^3.9.0"
+  }
+}

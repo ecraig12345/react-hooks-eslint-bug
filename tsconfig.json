@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "files": ["index.ts"]
+}
